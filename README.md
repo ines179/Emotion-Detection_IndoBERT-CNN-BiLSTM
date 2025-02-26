@@ -3,9 +3,9 @@
 Model Deteksi Emosi di Media Sosial mengenai Perbincangan Telekomunikasi
 
 ## Dataset
-Data yang digunakan merupakan data mengenai perbincangan telekomunikasi yang mecakup mention dan keyword dari Indosat, Telkomsel, XL, dan Axis yang dikumpulkan dari media sosial Twitter, YouTube, Instagram, News, Facebook, dan Tiktok. Rentang waktu pengambilan data dimulai dari tanggal 01 Juni 2023 hingga 21 Agustus 2023. Dataset terdiri dari 11.730 data teks dari berbagai media sosial yang telah dilabeli 6 emosi yaitu kegembiraan, terkejut, kesedihan, ketakutan, kemarahan, dan rasa jijik.
+- Data yang digunakan merupakan data mengenai perbincangan telekomunikasi yang mecakup mention dan keyword dari Indosat, Telkomsel, XL, dan Axis yang dikumpulkan dari media sosial Twitter, YouTube, Instagram, News, Facebook, dan Tiktok. Rentang waktu pengambilan data dimulai dari tanggal 01 Juni 2023 hingga 21 Agustus 2023. Dataset terdiri dari 11.730 data teks dari berbagai media sosial yang telah dilabeli 6 emosi yaitu kegembiraan, terkejut, kesedihan, ketakutan, kemarahan, dan rasa jijik.
 
-Label-label tersebut melibatkan angka, dengan ketentuan label (1) untuk ketakutan, label (2) untuk rasa jijik, label (3) untuk kemarahan, label (4) untuk terkejut, label (5) untuk kegembiraan, dan label (6) untuk kesedihan. Pelabelan data emosi dilakukan oleh peneliti dengan bantuan dua mahasiswa psikologi.
+- Label-label tersebut melibatkan angka, dengan ketentuan label (1) untuk ketakutan, label (2) untuk rasa jijik, label (3) untuk kemarahan, label (4) untuk terkejut, label (5) untuk kegembiraan, dan label (6) untuk kesedihan. Pelabelan data emosi dilakukan oleh peneliti dengan bantuan dua mahasiswa psikologi.
 
 ## Data Balancing
 Penanganan Imbalanced Data dilakukan dengan menggunakan gabungan metode oversampling dan undersampling. Oversampling dilakukan menggunakan metode augmentasi berupa generasi menggunakan ChatGPT dan Backtranslation sedangkan undersampling dilakukan dengan metode Random Under Sampling. Setelah dilakukan data balancing, dataset terdiri dari 14.001 data dengan 2.372 untuk kelas emosi terkejut, 2.346 untuk emosi ketakutan, 2.337 untuk emosi kesedihan, 2.318 untuk emosi kegembiraan, 2.313 untuk emosi jijik, dan 2.315 untuk emosi kemarahan.
